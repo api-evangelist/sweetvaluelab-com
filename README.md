@@ -1,4 +1,4 @@
-# sweetvaluelab-com
+# SweetValueLab
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,132 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-sweetvaluelab-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://sweetvaluelab.com/
+SweetValueLab provides free US stock grades and comprehensive financial data tools, offering investors access to stock lists, company comparisons, and valuation models without ads or account requirements. The platform aggregates public filings, SEC data, and market information to deliver sortable stock rankings, sector analyses, and custom calculators for banks, REITs, software, and more.
+
+**Areas:** Company · Finance · Stocks · Data · Tools · Investors
+
+## SweetValueLab on APIs.io
+
+Everything profiled for SweetValueLab is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sweetvaluelab-com/](https://apis.io/providers/sweetvaluelab-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (12)
+
+- [SweetValueLab Account API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-account-api/) — Who a personal API token belongs to. Tokens themselves are minted and revoked by a signed-in person in the browser, not here.
+- [SweetValueLab AI bubble API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-ai-bubble-api/) — The AI bubble tracker behind /tools/ai-bubble.
+- [SweetValueLab Authoring API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-authoring-api/) — Writing, revising and submitting guest posts for the blog, and the byline they carry. Every operation needs a personal API token.
+- [SweetValueLab Calendar API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-calendar-api/) — Reporting dates.
+- [SweetValueLab Long tail API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-long-tail-api/) — Tickers outside the covered universe: search and a profile-only overview.
+- [SweetValueLab Partners API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-partners-api/) — The partner list — the sites in the Partners column of the footer on https://sweetvaluelab.com/ — and the application a site (or its agent) sends to be…
+- [SweetValueLab Rates API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-rates-api/) — U.S. Treasury yields and the discount rate behind the valuations.
+- [SweetValueLab Restaurants API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-restaurants-api/) — The Restaurant 10 index of US fast-food chains.
+- [SweetValueLab Sector boards API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-sector-boards-api/) — Banks, REITs and software: per-sector health cards on the metrics that sector is actually read on.
+- [SweetValueLab Sentiment API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-sentiment-api/) — The daily market sentiment gauge.
+- [SweetValueLab Stocks API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-stocks-api/) — The covered universe of large US companies.
+- [SweetValueLab Superinvestors API](https://apis.io/apis/sweetvaluelab-com/sweetvaluelab-com-superinvestors-api/) — 13F portfolios of tracked long-only managers.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [SweetValueLab Agentic Access](https://apis.io/agentic-access/sweetvaluelab-com/sweetvaluelab-com-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [Envelope](https://apis.io/schemas/sweetvaluelab-com/sweetvaluelab-com-envelope/)
+- [Post](https://apis.io/schemas/sweetvaluelab-com/sweetvaluelab-com-post/)
+- [PostDocument](https://apis.io/schemas/sweetvaluelab-com/sweetvaluelab-com-post-document/)
+- [PrecheckReport](https://apis.io/schemas/sweetvaluelab-com/sweetvaluelab-com-precheck-report/)
+- [ProfileInput](https://apis.io/schemas/sweetvaluelab-com/sweetvaluelab-com-profile-input/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Sweetvaluelab Com Context](https://apis.io/jsonld/sweetvaluelab-com/sweetvaluelab-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [SweetValueLab API Rules](https://apis.io/rules/sweetvaluelab-com/sweetvaluelab-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [SweetValueLab Authentication](https://apis.io/security/sweetvaluelab-com/sweetvaluelab-com-authentication/)
+- [SweetValueLab Domain Security](https://apis.io/security/sweetvaluelab-com/sweetvaluelab-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://sweetvaluelab.com/)
+- [Documentation](https://sweetvaluelab.com/openapi.json)
+- [API reference](https://sweetvaluelab.com/openapi.json)
+- [Blog](https://sweetvaluelab.com/blog)
+- [Terms of service](https://sweetvaluelab.com/terms)
+- [Privacy policy](https://sweetvaluelab.com/privacy)
+- [Status](https://sweetvaluelab.com/status)
+
+## API Evangelist rating
+
+**Kin Score 47.6** — developing · rubric 0.28.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 59.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 27.7 |
+
+**Agent readiness 49.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sweetvaluelab-com/](https://apis.io/providers/sweetvaluelab-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SweetValueLab: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sweetvaluelab-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
